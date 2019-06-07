@@ -1,6 +1,7 @@
 package com.learn.springcloundapi.entity.utils;
 
 import com.learn.springcloundapi.entity.UserInfo;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,5 +23,6 @@ public class UserUtils {
             user.setPassword("1234"+i);
             li.add(user);
         }
+        System.out.println("ddd");
     }
 }

@@ -1,0 +1,19 @@
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: springclound-provider
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_user?characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+#  profiles:
+#    include: usersUtils
+
+
+mybatis:
+  type-aliases-package: com.learn.entity
+  mapper-locations: classpath:mapper/*.xml
